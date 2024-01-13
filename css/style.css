@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+}
+
+body,
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+.wrapper {
+    min-height: 100%;
+    background-image: url(../img/rabstol_net_new_year_139.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.celebration__img-wrap {
+    display: inline-block;
+    width: 200px;
+    height: 210px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 1px solid;
+}
+
+.ded__moroz {
+    transform: translate(-34%, -30%);
+}
+
+.celebration__img {
+    height: 100%;
+    width: 100%;
+}
+
+.celebration__content {
+    display: inline-block;
+    color: snow;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(60, 60, 117);
+    border-radius: 20px;
+    border: 2px solid snow;
+    padding: 20px 50px;
+}
+
+.btn-block {
+    display: inline-block;
+    color: snow;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(60, 60, 117);
+    border-radius: 10px;
+    border: 2px solid snow;
+    text-align: center;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.btn__custom {
+    color: snow;
+    text-decoration: dashed;
+}
+
+.btn {
+    text-decoration: none;
+    color: snow;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: rgb(147, 19, 19);
+}
